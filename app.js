@@ -92,7 +92,6 @@
 
 
 // question start
-
 // const students = [
 //   {
 //     name: 'Alice',
@@ -131,11 +130,9 @@
 //   console.log(topStudent,'top')
 // }
 // getTopStudents(students);
-
 // question end
 
 // question start
-
 // const numbers=[2,3,5,7,8,9];
 // function square(val){
 //   const squareNumber=numbers.map(number=>number*number);
@@ -143,18 +140,15 @@
 
 // }
 // square(numbers)
-
 // question end
 
 // question start
-
 // const names=['arisha','ammar','ruba'];
 // function arrayNames(names){
 //   const greetings=names.map(item=>`Hello ${item}`);
 //   console.log(greetings)
 // }
 // arrayNames(names)
-
 // question end
 
 // question start
@@ -178,7 +172,6 @@
 // question end
 
 // question start
-
 // const words=['banana','chair','orange','apple'];
 // function wordsLength(val){
 //   const arrayLength=val.map(item=>item.length);
@@ -186,7 +179,6 @@
 
 // }
 // wordsLength(words)
-
 // question end
 
 // question start
@@ -273,4 +265,97 @@
 // ]
 // const filterArray=books.filter(n=>n.publishedYear>specifiedYear);
 // console.log(filterArray)
+// question end
+
+
+// SPREAD OPERATOR
+
+// question start
+// const array=[10,2,3];
+// const arrayNumber=[4,6,8];
+// const mergeArray=[...array,...arrayNumber];
+// console.log(mergeArray)
+
+// const object={
+//   name:'arisha',
+//   skills:'development',
+//   age:21
+// }
+// question end
+
+// question start
+// function objects(val){
+// const copiedObject={...val}
+// copiedObject.skills='SE'
+// console.log(copiedObject)
+// console.log(val)
+// }
+// objects(object)
+// question end
+
+// question start
+// const array=['arisha','ammar','ruba'];
+// function arrayElement(arr,elementToRemove){
+//   const removeElement =[...arr];
+//   const elementIndex=removeElement.indexOf(elementToRemove);
+//   console.log(elementIndex)
+//   if(elementIndex != -1){
+//     removeElement.splice(1,1);
+//     console.log(removeElement)
+//   }
+//   removeElement.splice(1,1);
+//   console.log(removeElement)
+// }
+// arrayElement(array,'ammar')
+// question end
+
+
+// question start
+// const objectOne={
+//   namestudents:'areesha',
+//   skill:'development in engineering',
+//   agestudents:21
+// }
+// const objectTwo={
+//   name:'ammar',
+//   skill:"development",
+//   age:25
+// }
+// function object(objectOneVal,objectTwoVal){
+//   const mergeObj={...objectOneVal,...objectTwoVal};
+//   console.log(mergeObj)
+
+// }
+// object(objectOne,objectTwo)
+// question end
+
+// question start
+// const skill='SE'
+// const objectOne=[{
+//     namestudents:'areesha',
+//     skill:'development in engineering',
+//     agestudents:21
+//   },
+//  {
+//     name:'ammar',
+//     skill:"development",
+//     age:25
+//   },
+//   {
+//     name:'ruba',
+//     skill:"BBA",
+//     age:24
+//   },
+//   {
+//     name:'tena',
+//     skill:"SE",
+//     age:23
+//   },
+//  ]
+//  function allObj(objectOne){
+//   const filterObj=objectOne.filter(item=>item.skill==='SE');
+//   console.log(...filterObj)
+
+//  }
+//  allObj(objectOne)
 // question end
